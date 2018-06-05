@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         editor.clear().apply()
     }
 
+    // straight-tea add comment
     fun onJankenButtonTapped(view: View?){
         startActivity<ResultActivity>("MY_HAND" to view?.id)
 
